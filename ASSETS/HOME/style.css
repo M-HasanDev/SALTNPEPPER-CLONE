@@ -1,0 +1,55 @@
+/* UNIVERSAL SELECTOR */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TAG SELECTOR */
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+li{
+    display: inline;
+    padding-right: 35px;
+    font-size: 2rem;
+}
+
+/* ID SELECTOR */
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 100px 0px 100px;
+}
+#logo{
+    width: 35%;
+}
+#right_Side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#franchise{
+    width: 125px;
+    height: 50px;
+    border: 1.5px solid #f0f0f0;
+    margin-right: 28px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+#order{
+    width: 125px;
+    height: 50px;
+    border: 1.5px solid #ed1c24;
+    margin-right: 28px;
+    border-radius: 25px;
+    background-color: #ed1c24;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
