@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* TAG SELECTOR */
@@ -13,12 +14,13 @@ body{
     background-color: #000000;
     color: #ffffff;
 }
+
+/* HEADER START */
 li{
     display: inline;
     padding-right: 35px;
     font-size: 2rem;
 }
-
 /* ID SELECTOR */
 #header{
     display: flex;
@@ -53,3 +55,212 @@ li{
     color: #ffffff;
     font-size: 1.4rem;
 }
+/* HEADER END */
+
+/* Crousel Start */
+#fullPic{
+    width: 100%;
+}
+/* Crousel End */
+
+/* Group og Companies Start */
+#groupCompanies{
+    margin: 20px 70px 20px 70px;
+}
+#greetings{
+    margin-top: 80px;
+    text-align: center;
+}
+#welcome{
+    font-size: 4rem;
+}
+#welcome > Span{
+    font-size: 5.5rem;
+}
+#info{
+    padding-top: 15px;
+    font-size: 2rem;
+}
+#listing{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 175px;
+}
+#restaurant{
+    background-color: #ffffff;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#click01{
+    margin-top: 15px;
+    width: 175px;
+    height: 40px;
+    background: transparent;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+#express{
+    background-color: #ffffff;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#click02{
+    margin-top: 15px;
+    width: 175px;
+    height: 40px;
+    background: transparent;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+#village{
+    background-color: #ffffff;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#click03{
+    margin-top: 15px;
+    width: 175px;
+    height: 40px;
+    background: transparent;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+/* Group of Companies End */
+
+/* Restaurant Franchise Start */
+#restaurantIslamabad{
+    margin-bottom: 50px;
+}
+#name01{
+    text-align: center;
+    font-size: 5.5rem;
+    padding-bottom: 10px;
+}
+#depart01{
+    text-align: center;
+    font-size: 4.5rem;
+    padding-bottom: 10px;
+}
+#slogan01{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+#totalrestaurant{
+    margin-bottom: 75px;
+}
+#restaurantIslamabad{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+#city01Restaurant{
+    color: #ed1c24;
+    font-size: 3.5rem;
+    padding-bottom: 5px;
+}
+#company{
+    font-size: 4rem;
+    padding-bottom: 15px;
+}
+#logoName{
+    font-size: 5.5rem;
+}
+#addressIslamabad , #islamabadNumber{
+    font-size: 1.5rem;
+    padding-bottom: 8px;
+}
+#direction01{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+#restaurantFaisalabad{
+    display: flex;
+    justify-content: space-around;
+}
+#city02Restaurant{
+    color: #ed1c24;
+    font-size: 3.5rem;
+    padding-bottom: 5px;
+}
+#addressFaisalabad , #faisalabadNumber{
+    font-size: 1.5rem;
+    padding-bottom: 8px;
+}
+#direction02{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+#restaurantBhawalpur{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#city03Restaurant{
+    color: #ed1c24;
+    font-size: 3.5rem;
+    padding-bottom: 5px;
+}
+#addressBhawalpur , #bhawalpurNumber{
+    font-size: 1.5rem;
+    padding-bottom: 8px;
+}
+#direction03{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+/* Restaurant Franchise End */
+
+/* Express Franchise Start */
+#expressFranchise{
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#name02{
+    font-size: 5.5rem;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#depart02{
+    font-size: 4.5rem;
+    text-align: center;
+    padding-bottom: 35px;
+}
+#row01{
+    display: flex;
+    justify-content: space-around;
+}
+#expresspic01 , #expresspic02{
+    width: 75%;
+}
+#expresspic03{
+    width: 110%;
+}
+/* Express fRanchise End */
