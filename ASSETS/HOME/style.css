@@ -20,12 +20,13 @@ li{
     display: inline;
     padding-right: 35px;
     font-size: 2rem;
+    cursor: pointer;
 }
 /* ID SELECTOR */
 #header{
     display: flex;
     justify-content: space-between;
-    margin: 12px 100px 0px 100px;
+    margin: 12px 80px 0px 80px;
 }
 #logo{
     width: 35%;
@@ -44,6 +45,7 @@ li{
     background-color: transparent;
     color: #ffffff;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 #order{
     width: 125px;
@@ -54,6 +56,7 @@ li{
     background-color: #ed1c24;
     color: #ffffff;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 /* HEADER END */
 
@@ -188,6 +191,7 @@ li{
     height: 40px;
     color: #ffffff;
     margin-top: 50px;
+    cursor: pointer;
 }
 #restaurantFaisalabad{
     display: flex;
@@ -210,6 +214,7 @@ li{
     height: 40px;
     color: #ffffff;
     margin-top: 50px;
+    cursor: pointer;
 }
 #restaurantBhawalpur{
     display: flex;
@@ -233,6 +238,7 @@ li{
     height: 40px;
     color: #ffffff;
     margin-top: 50px;
+    cursor: pointer;
 }
 /* Restaurant Franchise End */
 
@@ -253,9 +259,12 @@ li{
     text-align: center;
     padding-bottom: 35px;
 }
-#row01{
+#row01 , #row02 , #row03 {
     display: flex;
     justify-content: space-around;
+}
+#expresspic10{
+    margin-left: 35%;
 }
 #expresspic01 , #expresspic02{
     width: 75%;
@@ -263,4 +272,392 @@ li{
 #expresspic03{
     width: 110%;
 }
+#expresspic04 , #expresspic07{
+    width: 105%;
+}
+#expresspic05 , #expresspic08{
+    width: 106%;
+}
+#expresspic06 , #expresspic09{
+    width: 107%;
+}
+#expresspic10{
+    width: 30%;
+}
+#express04 , #express05 , #express07 , #express08{
+    margin-right: 122.5px;
+}
+#company_01 , #expressAddress , #expressNumber{
+    text-align: center;
+}
+#expressname01 , #expressname02 , #expressname03 , #expressname04 , #expressname05 , #expressname06 , #expressname07 , 
+#expressname08 , #expressname09 , #expressname10{
+    text-align: center;
+    color: #ed1c24;
+}
+#express01 > p{
+    padding-right: 160px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express01 > h1{
+    padding-right: 160px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#express02 > p{
+    padding-right: 160px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express02 > h1{
+    padding-right: 160px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#express03 > h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#express03 > p{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express04 > p{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express04 > h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#express05 > p{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express05 > h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#express06 > p{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express06 > h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#express07 > p{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express07 > h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#express08 > p{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express08 > h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#express09 > p{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express09 > h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#express10 > p{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+#express10 > h1{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 2.7rem;
+}
+#row02 , #row03 , #row04{
+    margin-top: 25px;
+}
+#direction04 , #direction05{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 110px;
+}
+#direction06{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 110px;
+}
+#direction07{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left: 125px;
+}
+#direction08 , #direction09{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 125px;
+}
+#direction10{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left: 125px;
+}
+#direction11{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 125px;
+}
+#direction12{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 45px;
+    cursor: pointer;
+    margin-left: 125px;
+}
+#direction13{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 46%;
+}
 /* Express fRanchise End */
+
+/* VILLAGE FRANCHISE START */
+#name03{
+    font-size: 5.5rem;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#depart03{
+    font-size: 4.5rem;
+    text-align: center;
+    padding-bottom: 35px;
+}
+#villageFranchise{
+    margin-bottom: 50px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#villagepic01{
+    margin-right: 125px;
+}
+#villagedetail{
+    padding-top: 100px;
+}
+#city{
+    text-align: center;
+    color: #ed1c24;
+    font-size: 2.5rem;
+    padding-bottom: 15px;
+}
+#company_02{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 3rem;
+}
+#villageAddress{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+}
+#villageNumber{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+#villageNumber_02{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 2rem;
+}
+#direction14{
+    background: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+/* VILLAGE FRANCHISE END */
+
+/* EXPRESS COMINGSOON FRANCHISE START */
+#name04{
+    font-size: 5.5rem;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#depart04{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 35px;
+}
+#expressComingSoonFranchise{
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#row01ComingSoon , #row02ComingSoon , #row03ComingSoon{
+    display: flex;
+    justify-content: space-around;
+}
+#comingSoon01 , #comingSoon02 , #comingSoon03 , #comingSoon04 , 
+#comingSoon05 , #comingSoon06 , #comingSoon07 , #comingSoon08{
+    width: 400px;
+    height: 280px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 25px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+#time{
+    color: #ed1c24;
+    padding-top: 32px;
+    text-align: center;
+    font-size: 2.8rem;
+}
+#company_03{
+    text-align: center;
+    font-size: 3.2rem;
+    padding-top: 32px;
+}
+#area{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 32px;
+}
+#cityExpress{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 32px;
+}
+/* EXPRESS COMINGSOONG FRANCHISE END */
+
+/* SOCIAL FEED START */
+#depart05{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#collection{
+    display: flex;
+    justify-content: space-around;
+}
+#social01 , #social02 , #social03 , #social04 , #social05{
+    width: 290px;
+}
+/* #img01 , #img02 , #img03 , #img04{
+    margin-right: 75px;
+} */
+#img02 , #img04{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* SOCIAL FEED END */
+
+/* FOOTER START */
+#footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#tab01 , #tab02 , #tab03{
+    width: 350px;
+}
+#logoonFooter{
+    width: 200px;
+}
+#footerpara01 , #footerpara02{
+    font-size: 1.6rem;
+}
+#tab02{
+    padding-left: 60px;
+    font-size: 1.6rem;   
+}
+#tab03{
+    padding-left: 60px;
+    font-size: 1.6rem;   
+}
+#lastline{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    font-size: 1.4rem;
+}
+/* FOOTER END */
